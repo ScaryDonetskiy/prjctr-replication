@@ -1,0 +1,8 @@
+[mysqld]
+
+skip-name-resolve
+
+server-id=2
+relay_log=/tmp/mysql-relay-bin.log
+log_bin=1
+binlog_do_db=prjctr
